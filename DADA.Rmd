@@ -1,0 +1,16 @@
+---
+title: "R Notebook"
+output: github_document
+---
+
+```{r}
+if (!requireNamespace("BiocManager", quietly = TRUE))
+    install.packages("BiocManager")
+BiocManager::install("dada2", version = "3.23")
+```
+```{r}
+library(dada2); packageVersion("dada2")
+
+```
+
+
