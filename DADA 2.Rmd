@@ -100,6 +100,9 @@ taxa <- assignTaxonomy(
   multithread=TRUE
 )
 ```
+```{r}
+wget https://zenodo.org/records/14169026/files/silva_v138.2_assignSpecies.fa.gz?download=1 
+```
 
 
 
