@@ -13,4 +13,15 @@ library(dada2); packageVersion("dada2")
 
 ```
 
+```{r}
+install.packages("igraph", type = "source")
+```
+```{r}
+BiocManager::install("phyloseq", update = FALSE)
+```
+
+```{r}
+library(phyloseq)
+packageVersion("phyloseq")
+```
 
